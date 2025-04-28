@@ -10,9 +10,38 @@ Write a C program to read 3 characters one by one and print the characters in a 
 4.	End the program.
 
 ## PROGRAM:
+```
+#include <stdio.h>
 
+int main() { // Step 1: Declare three character variables char ch1, ch2, ch3;
+
+// Step 2: Read characters one by one
+
+printf("Enter first character: ");
+
+scanf("%c", &ch1);
+
+printf("Enter second character: ");
+
+scanf("%c", &ch2);
+
+printf("Enter third character: ");
+
+scanf("%c", &ch3);
+
+// Step 3: Print characters in reverse order
+
+printf("Characters in reverse order: %c %c %c\n", ch3, ch2, ch1);
+
+// Step 4: End the program
+
+return 0;
+
+}
+```
 ## OUTPUT:
 
+![WhatsApp Image 2025-04-28 at 02 27 15_63b46a17](https://github.com/user-attachments/assets/f972c5e1-6111-467f-b79a-ed456f97271f)
 
 
 
@@ -46,9 +75,41 @@ Write a C program to read A values and check whether A is positive number or not
 6.End the program.
 
 # PROGRAM:
+```
+#include <stdio.h>
 
+int main() { // Step 1: Declare a variable to store input
+// Step 2: Read the value of A
+
+printf("Enter a number: ");
+
+scanf("%d", &A);
+
+// Step 3: Check if A is positive
+
+if (A > 0) {
+
+// Step 4: If positive
+
+printf("%d is a positive number. \n", Α);
+
+} else {
+
+// Step 5: If not positive
+
+printf("%d is not a positive number.\n", A);
+
+}
+
+// Step 6: End the program
+
+return 0;
+
+}
+```
 # OUTPUT:
 
+![WhatsApp Image 2025-04-28 at 02 29 47_fcceb8a0](https://github.com/user-attachments/assets/5af36853-ccf9-41f2-9e92-117d74fe76ac)
 
 
 
@@ -80,10 +141,43 @@ Write a program to find minimum between two fraction numbers using conditional o
 7.	Print the minimum value.
 
 ## PROGRAM:
+```
+#include <stdio.h>
 
+int main() { // Step 1: Declare variables int num1, den1, num2, den2; float frac1, frac2, min;
+
+// Step 2 & 3: Read first fraction
+
+printf("Enter numerator and denominator of first fraction: ");
+
+scanf("%d %d", &num1, &den1);
+
+// Step 4: Read second fraction
+
+printf("Enter numerator and denominator of second fraction: ");
+
+scanf("%d %d", &num2, &den2);
+
+// Step 5: Calculate decimal values of both fractions
+
+frac1 (float)numl / den1;
+
+frac2 (float)num2 / den2;
+
+// Step 6: Use ternary operator to find minimum
+
+min (fracl frac2)? frac1: frac2;
+
+// Step 7: Print the minimum value
+
+printf("Minimum value between the two fractions: %.4f\n", min);
+
+return 0;
+}
+```
 ## OUTPUT:
 
-
+![WhatsApp Image 2025-04-28 at 02 31 17_44509f32](https://github.com/user-attachments/assets/6e84d244-ba1a-43cb-99e6-74eadb615d54)
 
 
 
@@ -111,11 +205,44 @@ Write a C program to check whether the input value is equal to 1 using simple if
 6.	End the program.
 
 ## PROGRAM:
+```
+#include <stdio.h>
+
+int main() { // Step 1: Declare a variable to store input int value;
+
+// Step 2: Read the input value
+
+printf("Enter a number: ");
+
+scanf("%d", &value);
+
+// Step 3: Check if the input is equal to 1
+
+if (value == 1) {
+
+// Step 4: If true
+
+printf("The input value is equal to 1.\n");
+
+} else {
+
+// Step 5: If not true
+
+printf("The input value is not equal to 1.\n");
+
+}
+
+// Step 6: End the program
+
+return 0;
+
+}
+```
 
 ## OUTPUT:
 
 
-
+![WhatsApp Image 2025-04-28 at 02 33 35_574d5a5a](https://github.com/user-attachments/assets/c4ab3091-7806-4fbf-99ee-ab2426918d17)
 
 
 
@@ -147,8 +274,29 @@ c.	Else if percentage >= 36: Print “Division = Pass”
 9.	Else: Print “Division = Fail”
 10.	End
 ## PROGRAM:
+```
+#include <stdio.h>
 
+int main() { // Step 2: Declare variables int m1, m2, m3; float tot, per;
+
+// Step 3: Input the marks
+
+printf("Enter marks of three subjects: \n"); scanf("%d %d %d", &m1, &m2, &m3);
+
+// Step 4: Calculate total tot m1 m2 + m3;
+
+// Step 5: Calculate percentage per tot/3;
+
+// Step 6: Display total and percentage
+
+printf("Total Marks %.2f\n", tot);
+
+printf("Percentage = %.2f%%\n", per);
+
+// Step 7-9: Determine Division
+```
 ## OUTPUT:
+![WhatsApp Image 2025-04-28 at 01 37 31_ef112dec](https://github.com/user-attachments/assets/03a92651-a9a9-48d7-965a-c8bec5fed4fd)
 
 ## RESULT:
 The program successfully takes three subject marks, calculates the total and percentage, and correctly determines the division based on predefined grading logic.
