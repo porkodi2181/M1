@@ -217,5 +217,7 @@ int main() {
 
 
 ## RESULT:
+
+
 The program successfully takes three subject marks, calculates the total and percentage, and correctly determines the division based on predefined grading logic.
 
